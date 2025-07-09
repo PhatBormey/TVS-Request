@@ -1,0 +1,6 @@
+{
+  "name": "Stationary Report",
+  "description": "A web application to create, view, edit, and delete stationary usage reports. Users can log items taken, along with the time, and manage the report list.",
+  "requestFramePermissions": [],
+  "prompt": ""
+}
