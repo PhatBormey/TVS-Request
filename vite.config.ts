@@ -12,6 +12,10 @@ export default defineConfig(({ mode }) => {
         alias: {
           '@': path.resolve(__dirname, '.'),
         }
-      }
+      },
+      server: {
+      host: '0.0.0.0', // 👈 this allows external access (like Render)
+      port: 5173       // 👈 optional, or use process.env.PORT
+    }
     };
 });
