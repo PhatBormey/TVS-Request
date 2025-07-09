@@ -15,7 +15,8 @@ export default defineConfig(({ mode }) => {
       },
       server: {
       host: '0.0.0.0', // 👈 this allows external access (like Render)
-      port: 5173       // 👈 optional, or use process.env.PORT
+      port: 5173,
+      allowedHosts: ['tvs-request.onrender.com'], // ✅ Add this line       // 👈 optional, or use process.env.PORT
     }
     };
 });
